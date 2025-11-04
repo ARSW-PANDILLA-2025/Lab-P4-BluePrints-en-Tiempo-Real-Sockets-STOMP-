@@ -499,4 +499,4 @@ MIT License - Ver archivo [LICENSE](LICENSE) para más detalles.
 4. Operaciones CRUD (Save y Delete)
 5. Visualización del total de puntos actualizándose
 
-[🎥 Link al video de demostración](https://youtube.com/...)
+[🎥 Link al video de demostración](https://youtu.be/nKMW0HRO9JQ)
