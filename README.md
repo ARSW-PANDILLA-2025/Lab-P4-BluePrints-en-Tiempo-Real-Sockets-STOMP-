@@ -2,8 +2,35 @@
 
 Aplicación web de colaboración en tiempo real para el diseño y edición de planos (blueprints) que permite a múltiples usuarios dibujar simultáneamente en el mismo canvas utilizando Socket.IO como tecnología de comunicación bidireccional, con operaciones CRUD completas mediante API REST.
 
+<img width="1710" height="820" alt="image" src="https://github.com/user-attachments/assets/a59e919b-8856-459e-b3b7-70bd12566f8f" />
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/bf91c8b6-b143-4614-a7fb-62ab284532fb" />
+Guardar blueprint dibujado
+<img width="1919" height="844" alt="image" src="https://github.com/user-attachments/assets/f5c8f759-c6a0-4658-8f58-b7b454a3864b" />
+Verificar Eliminación
+<img width="1913" height="840" alt="image" src="https://github.com/user-attachments/assets/cb48e736-3f23-4405-861a-94648bd96924" />
+Se elimina el Blueprint registrado como PLano 1
+<img width="1919" height="844" alt="image" src="https://github.com/user-attachments/assets/69030ff8-df1a-48cf-99ea-12e528c7f9ff" />
+Desactivación del tiempo real con Socket.IO
+<img width="1104" height="88" alt="image" src="https://github.com/user-attachments/assets/66c0bf0d-8b62-4cfe-b3f3-1172f49d1822" />
+Cambio de autor de Angie a Carlos 
+<img width="1919" height="841" alt="image" src="https://github.com/user-attachments/assets/af32575e-86df-49a9-8141-2d35084e834b" />
+Creación de nuevo canvas
+<img width="402" height="153" alt="image" src="https://github.com/user-attachments/assets/4eab7436-c08e-4104-b9b3-69d22d2c7daa" />
+<img width="1919" height="854" alt="image" src="https://github.com/user-attachments/assets/0ad87707-ac33-4ac3-91a6-00b0494c619e" />
+Opción de selección de Blueprint
+<img width="789" height="320" alt="image" src="https://github.com/user-attachments/assets/e11cdefd-be54-4e88-b219-f7acfb643a53" />
+Sin tiempo real no se muestran los cambios en la otra pestaña
+<img width="1919" height="762" alt="image" src="https://github.com/user-attachments/assets/34f37a93-b625-417e-a2e8-e03184e2a0e2" />
+Con tiempo real Socket.IO se muestra la colaboración entre las pestañas y se va registrando el total los puntos dibujados dentro del blueprint seleccionado
+<img width="1915" height="771" alt="image" src="https://github.com/user-attachments/assets/ff1a3f44-70dd-4447-a94f-41983f997584" />
 
-*Figura 1: Interfaz principal de la aplicación mostrando el canvas de dibujo y el panel lateral con la lista de blueprints.*
+
+
+
+
+
+*Figura 1: Interfaz principal de la aplicación mostrando el canvas de dibujo y el panel lateral con la lista de blueprints. Mostrando Funcionalidades*
+
 
 ---
 
@@ -76,7 +103,7 @@ Salida esperada:
 🌐 API REST: http://localhost:3001/api/blueprints
 🔌 Socket.IO: http://localhost:3001
 ```
-
+<img width="1318" height="334" alt="image" src="https://github.com/user-attachments/assets/2b698549-9718-467e-ad61-9e3dc4b8cad4" />
 
 *Figura: Servidor backend ejecutándose correctamente en el puerto 3001.*
 
@@ -111,6 +138,7 @@ VITE v5.4.21  ready in 523 ms
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
 ```
+<img width="1314" height="273" alt="image" src="https://github.com/user-attachments/assets/351b318a-6cff-49a8-8b91-6dfaacd72f72" />
 
 *Figura: Servidor de desarrollo Vite ejecutándose en el puerto 5173.*
 
@@ -122,6 +150,7 @@ Abre tu navegador en `http://localhost:5173` y verás la aplicación funcionando
 ✅ Socket.IO conectado
 📍 Cliente unido a sala: blueprints.angie
 ```
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/abec5c13-d14c-4dac-979e-e1a495da7124" />
 
 *Figura: Aplicación funcionando correctamente con Socket.IO conectado.*
 
@@ -153,6 +182,7 @@ Estas pruebas validan el flujo completo de la aplicación desde la interfaz de u
 ```
 
 **Resultado esperado:** Latencia < 100ms entre acción y sincronización.
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/aa420f4d-6f55-488f-9a28-0d90ae987146" />
 
 *Figura: Dos pestañas mostrando sincronización en tiempo real de puntos dibujados.*
 
@@ -180,6 +210,7 @@ Estas pruebas validan el flujo completo de la aplicación desde la interfaz de u
 11. Verificar mensaje: "Blueprint eliminado exitosamente"
 12. Verificar que desaparece del dropdown
 ```
+<img width="959" height="675" alt="image" src="https://github.com/user-attachments/assets/86f43848-3ad1-4c5c-b178-5d51643fa3d2" />
 
 *Figura: Secuencia de operaciones CRUD: crear, dibujar, guardar y eliminar blueprint.*
 
